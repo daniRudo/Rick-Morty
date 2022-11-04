@@ -8,6 +8,11 @@
 import Foundation
 
 enum ApiResult {
+    case success
+    case failure
+}
+
+enum ApiResultCharacter {
     case success(CharacterList)
     case failure(String)
 }
@@ -15,7 +20,7 @@ enum ApiResult {
 class NetworkService  {
     static let shared = NetworkService()
 
-    func getCharacters(page: Int, completion: @escaping(ApiResult) -> Void) {
+    func getCharacters(page: Int, completion: @escaping(ApiResultCharacter) -> Void) {
         let urlString = "https://rickandmortyapi.com/api/character?page=\(page)"
         if let url = URL(string: urlString) {
             URLSession.shared.dataTask(with: url) {data, response, error in

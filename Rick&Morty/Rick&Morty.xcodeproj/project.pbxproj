@@ -9,25 +9,43 @@
 /* Begin PBXBuildFile section */
 		330991EE291282D7008B3F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330991ED291282D7008B3F0B /* AppDelegate.swift */; };
 		330991F0291282D7008B3F0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330991EF291282D7008B3F0B /* SceneDelegate.swift */; };
-		330991F2291282D7008B3F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330991F1291282D7008B3F0B /* ViewController.swift */; };
-		330991F5291282D7008B3F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330991F3291282D7008B3F0B /* Main.storyboard */; };
+		330991F2291282D7008B3F0B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330991F1291282D7008B3F0B /* HomeViewController.swift */; };
+		330991F5291282D7008B3F0B /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330991F3291282D7008B3F0B /* HomeViewController.storyboard */; };
 		330991F7291282DC008B3F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330991F6291282DC008B3F0B /* Assets.xcassets */; };
 		330991FA291282DC008B3F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330991F8291282DC008B3F0B /* LaunchScreen.storyboard */; };
+		3315C2222913C98D0033CBA0 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3315C2212913C98D0033CBA0 /* AlamofireImage */; };
+		3331285B29132DA40048DD03 /* Rick.json in Resources */ = {isa = PBXBuildFile; fileRef = 3331285A29132DA40048DD03 /* Rick.json */; };
+		337FAA3A2914869E00E79194 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 337FAA392914869E00E79194 /* Toast */; };
+		337FAA3D2914872800E79194 /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = 337FAA3C2914872800E79194 /* Toast */; };
 		3397E1B129128555009823CF /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1B029128555009823CF /* NetworkService.swift */; };
 		3397E1B429128599009823CF /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1B329128599009823CF /* Character.swift */; };
+		3397E1B82912902D009823CF /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1B62912902D009823CF /* CharacterCell.swift */; };
+		3397E1B92912902D009823CF /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3397E1B72912902D009823CF /* CharacterCell.xib */; };
+		3397E1BB29129287009823CF /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1BA29129287009823CF /* HomeCollectionViewController.swift */; };
+		3397E1BD29129539009823CF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1BC29129539009823CF /* HomeViewModel.swift */; };
+		3397E1C42912EA63009823CF /* CharacterDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3397E1C32912EA63009823CF /* CharacterDetailViewController.storyboard */; };
+		3397E1C62912EA6C009823CF /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3397E1C52912EA6C009823CF /* CharacterDetailViewController.swift */; };
+		3397E1C9291302B7009823CF /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3397E1C8291302B7009823CF /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		330991EA291282D7008B3F0B /* Rick&Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		330991ED291282D7008B3F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		330991EF291282D7008B3F0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		330991F1291282D7008B3F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		330991F4291282D7008B3F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330991F1291282D7008B3F0B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		330991F4291282D7008B3F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeViewController.storyboard; sourceTree = "<group>"; };
 		330991F6291282DC008B3F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330991F9291282DC008B3F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		330991FB291282DC008B3F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3331285A29132DA40048DD03 /* Rick.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rick.json; sourceTree = "<group>"; };
 		3397E1B029128555009823CF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		3397E1B329128599009823CF /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		3397E1B62912902D009823CF /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
+		3397E1B72912902D009823CF /* CharacterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
+		3397E1BA29129287009823CF /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
+		3397E1BC29129539009823CF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		3397E1C32912EA63009823CF /* CharacterDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CharacterDetailViewController.storyboard; sourceTree = "<group>"; };
+		3397E1C52912EA6C009823CF /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337FAA3D2914872800E79194 /* Toast in Frameworks */,
+				337FAA3A2914869E00E79194 /* Toast in Frameworks */,
+				3397E1C9291302B7009823CF /* Lottie in Frameworks */,
+				3315C2222913C98D0033CBA0 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +82,12 @@
 		330991EC291282D7008B3F0B /* Rick&Morty */ = {
 			isa = PBXGroup;
 			children = (
-				3397E1B229128589009823CF /* Entities */,
 				3397E1AF29128544009823CF /* Api */,
-				3397E1AE29128358009823CF /* Home */,
+				3397E1B229128589009823CF /* Entity */,
+				3397E1B529129003009823CF /* CollectionCell */,
+				337FAA3E2914F48B00E79194 /* Modules */,
 				3309920129128310008B3F0B /* App */,
-				330991F6291282DC008B3F0B /* Assets.xcassets */,
-				330991F8291282DC008B3F0B /* LaunchScreen.storyboard */,
+				3331285929132D6F0048DD03 /* Resources */,
 				330991FB291282DC008B3F0B /* Info.plist */,
 			);
 			path = "Rick&Morty";
@@ -80,11 +102,32 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		3331285929132D6F0048DD03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				330991F8291282DC008B3F0B /* LaunchScreen.storyboard */,
+				330991F6291282DC008B3F0B /* Assets.xcassets */,
+				3331285A29132DA40048DD03 /* Rick.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		337FAA3E2914F48B00E79194 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3397E1BE2912E753009823CF /* CharacterDetail */,
+				3397E1AE29128358009823CF /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		3397E1AE29128358009823CF /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				330991F1291282D7008B3F0B /* ViewController.swift */,
-				330991F3291282D7008B3F0B /* Main.storyboard */,
+				330991F1291282D7008B3F0B /* HomeViewController.swift */,
+				330991F3291282D7008B3F0B /* HomeViewController.storyboard */,
+				3397E1BA29129287009823CF /* HomeCollectionViewController.swift */,
+				3397E1BC29129539009823CF /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -97,12 +140,30 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
-		3397E1B229128589009823CF /* Entities */ = {
+		3397E1B229128589009823CF /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				3397E1B329128599009823CF /* Character.swift */,
 			);
-			path = Entities;
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3397E1B529129003009823CF /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3397E1B62912902D009823CF /* CharacterCell.swift */,
+				3397E1B72912902D009823CF /* CharacterCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		3397E1BE2912E753009823CF /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3397E1C32912EA63009823CF /* CharacterDetailViewController.storyboard */,
+				3397E1C52912EA6C009823CF /* CharacterDetailViewController.swift */,
+			);
+			path = CharacterDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +182,12 @@
 			dependencies = (
 			);
 			name = "Rick&Morty";
+			packageProductDependencies = (
+				3397E1C8291302B7009823CF /* Lottie */,
+				3315C2212913C98D0033CBA0 /* AlamofireImage */,
+				337FAA392914869E00E79194 /* Toast */,
+				337FAA3C2914872800E79194 /* Toast */,
+			);
 			productName = "Rick&Morty";
 			productReference = 330991EA291282D7008B3F0B /* Rick&Morty.app */;
 			productType = "com.apple.product-type.application";
@@ -149,6 +216,12 @@
 				Base,
 			);
 			mainGroup = 330991E1291282D7008B3F0B;
+			packageReferences = (
+				3397E1C7291302B6009823CF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				3315C2202913C98D0033CBA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				337FAA382914869E00E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+				337FAA3B2914872800E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */,
+			);
 			productRefGroup = 330991EB291282D7008B3F0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,9 +236,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3397E1C42912EA63009823CF /* CharacterDetailViewController.storyboard in Resources */,
 				330991FA291282DC008B3F0B /* LaunchScreen.storyboard in Resources */,
+				3331285B29132DA40048DD03 /* Rick.json in Resources */,
 				330991F7291282DC008B3F0B /* Assets.xcassets in Resources */,
-				330991F5291282D7008B3F0B /* Main.storyboard in Resources */,
+				330991F5291282D7008B3F0B /* HomeViewController.storyboard in Resources */,
+				3397E1B92912902D009823CF /* CharacterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330991F2291282D7008B3F0B /* ViewController.swift in Sources */,
+				330991F2291282D7008B3F0B /* HomeViewController.swift in Sources */,
 				330991EE291282D7008B3F0B /* AppDelegate.swift in Sources */,
 				3397E1B429128599009823CF /* Character.swift in Sources */,
+				3397E1BD29129539009823CF /* HomeViewModel.swift in Sources */,
+				3397E1B82912902D009823CF /* CharacterCell.swift in Sources */,
+				3397E1BB29129287009823CF /* HomeCollectionViewController.swift in Sources */,
 				3397E1B129128555009823CF /* NetworkService.swift in Sources */,
+				3397E1C62912EA6C009823CF /* CharacterDetailViewController.swift in Sources */,
 				330991F0291282D7008B3F0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,12 +267,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		330991F3291282D7008B3F0B /* Main.storyboard */ = {
+		330991F3291282D7008B3F0B /* HomeViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				330991F4291282D7008B3F0B /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		330991F8291282DC008B3F0B /* LaunchScreen.storyboard */ = {
@@ -332,7 +412,7 @@
 				INFOPLIST_FILE = "Rick&Morty/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,7 +440,7 @@
 				INFOPLIST_FILE = "Rick&Morty/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = HomeViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -398,6 +478,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3315C2202913C98D0033CBA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		337FAA382914869E00E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		337FAA3B2914872800E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scalessec/Toast-Swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3397E1C7291302B6009823CF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3315C2212913C98D0033CBA0 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3315C2202913C98D0033CBA0 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		337FAA392914869E00E79194 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 337FAA382914869E00E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		337FAA3C2914872800E79194 /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 337FAA3B2914872800E79194 /* XCRemoteSwiftPackageReference "Toast-Swift" */;
+			productName = Toast;
+		};
+		3397E1C8291302B7009823CF /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3397E1C7291302B6009823CF /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 330991E2291282D7008B3F0B /* Project object */;
 }
