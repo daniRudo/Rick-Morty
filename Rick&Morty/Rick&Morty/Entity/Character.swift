@@ -8,11 +8,15 @@
 import Foundation
 
 struct CharacterList: Codable {
-    let results: [Result]
+    var results: [Character]
 }
 
-struct Result: Codable {
+struct Character: Codable {
     let id: Int
     let name: String
     let image: String
+    let status: String
+    let species: String
+    let type: String
+    let gender: String
 }
